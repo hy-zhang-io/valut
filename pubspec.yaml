@@ -1,0 +1,78 @@
+name: vault
+description: "VAULT - 极致隐私离线记账App. A private offline ledger app built with Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Material Design 3
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  dynamic_color: ^1.7.0
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Database
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.5
+
+  # Local Authentication
+  local_auth: ^2.3.0
+
+  # Security
+  crypto: ^3.0.6
+  encrypt: ^5.0.3
+
+  # Date & Time
+  intl: ^0.20.1
+
+  # Charts
+  fl_chart: ^0.70.1
+
+  # File Operations
+  file_picker: ^8.1.4
+  csv: ^6.0.0
+  permission_handler: ^11.3.1
+  archive: ^4.0.2
+  share_plus: ^10.1.4
+
+  # Haptic Feedback
+  haptic_feedback: ^0.1.0
+
+  # UI Components
+  flutter_slidable: ^4.0.0
+  reorderable_grid_view: ^2.2.7
+
+  # Utils
+  uuid: ^4.5.1
+  collection: ^1.19.1
+  fast_gbk: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Isar Code Generation
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.13
+
+  # Riverpod Code Generation
+  riverpod_generator: ^2.4.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
