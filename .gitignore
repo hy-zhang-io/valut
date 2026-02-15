@@ -44,9 +44,12 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Generated files (keep some)
-# *.g.dart
-# *.freezed.dart
+# Generated files
+*.g.dart
+*.freezed.dart
+*.config.dart
+*.gr.dart
+*.mocks.dart
 
 # Test data files
 *.csv
